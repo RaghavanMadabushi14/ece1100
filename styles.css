@@ -1,0 +1,193 @@
+/* Custom CSS for Baby Blue and White Theme with Times New Roman */
+
+/* Global Styles */
+.main {
+    background-color: #8FD9F8 !important;
+    background: linear-gradient(135deg, #FFFFFF 0%, #8FD9F8 50%, #FFFFFF 100%) !important;
+}
+
+/* Typography */
+body, .stMarkdown, .stText, .stWrite, .stTitle, .stHeader, .stSubheader {
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+/* Headers */
+.stTitle {
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+    text-shadow: 1px 1px 2px rgba(143, 217, 248, 0.5) !important;
+}
+
+.stHeader {
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #666666 !important;
+    border-bottom: 2px solid #8FD9F8 !important;
+    padding-bottom: 5px !important;
+    font-weight: bold !important;
+}
+
+.stSubheader {
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #8FD9F8 !important;
+    background: linear-gradient(180deg, #FFFFFF 0%, #8FD9F8 100%) !important;
+}
+
+.sidebar-content {
+    background-color: #8FD9F8 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #8FD9F8 !important;
+    color: #666666 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    border: 1px solid #8FD9F8 !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease !important;
+    font-weight: bold !important;
+}
+
+.stButton > button:hover {
+    background-color: #6BB6D6 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(143, 217, 248, 0.3) !important;
+}
+
+/* Primary Button */
+.stButton > button[data-testid="baseButton-primary"] {
+    background-color: #8FD9F8 !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+.stButton > button[data-testid="baseButton-primary"]:hover {
+    background-color: #6BB6D6 !important;
+}
+
+/* Download Button */
+.stDownloadButton > button {
+    background-color: #8FD9F8 !important;
+    color: #666666 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    border: 1px solid #8FD9F8 !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
+}
+
+.stDownloadButton > button:hover {
+    background-color: #6BB6D6 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(143, 217, 248, 0.3) !important;
+}
+
+/* Expanders */
+.streamlit-expanderHeader {
+    background-color: #8FD9F8 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #666666 !important;
+    border: 1px solid #8FD9F8 !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
+}
+
+.streamlit-expanderContent {
+    background-color: #FFFFFF !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    border: 1px solid #B8E0F5 !important;
+    border-radius: 0 0 8px 8px !important;
+}
+
+/* Progress Bars */
+.stProgress > div > div > div > div {
+    background-color: #8FD9F8 !important;
+}
+
+/* DataFrames */
+.stDataFrame {
+    background-color: #FFFFFF !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    border: 1px solid #8FD9F8 !important;
+    border-radius: 8px !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: #8FD9F8 !important;
+    border-radius: 8px !important;
+    border: 1px solid #8FD9F8 !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+/* Success/Info/Warning Messages */
+.stSuccess {
+    background-color: #D5F4E6 !important;
+    border-left: 4px solid #27AE60 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+.stInfo {
+    background-color: #8FD9F8 !important;
+    border-left: 4px solid #8FD9F8 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+.stWarning {
+    background-color: #FEF9E7 !important;
+    border-left: 4px solid #F39C12 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+/* Input Fields */
+.stTextInput > div > div > input {
+    font-family: 'Times New Roman', Times, serif !important;
+    border: 1px solid #8FD9F8 !important;
+    border-radius: 4px !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+/* Select Boxes */
+.stSelectbox > div > div > select {
+    font-family: 'Times New Roman', Times, serif !important;
+    border: 1px solid #8FD9F8 !important;
+    border-radius: 4px !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+}
+
+/* Images */
+.stImage > img {
+    border: 2px solid #8FD9F8 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(143, 217, 248, 0.2) !important;
+}
+
+/* PDF Iframe */
+iframe {
+    border: 2px solid #8FD9F8 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(143, 217, 248, 0.2) !important;
+}
